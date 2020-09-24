@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<web-app>
+    <servlet>
+        <servlet-name>formservlet</servlet-name>
+        <servlet-class>formservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>formservlet</servlet-name>
+        <url-pattern>/formservlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>reportservlet</servlet-name>
+        <servlet-class>reportservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>reportservlet</servlet-name>
+        <url-pattern>/reportservlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>formservlet2</servlet-name>
+        <servlet-class>formservlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>formservlet2</servlet-name>
+        <url-pattern>/formservlet2</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>loginservlet2</servlet-name>
+        <servlet-class>loginservlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginservlet2</servlet-name>
+        <url-pattern>/loginservlet2</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>loginservlet</servlet-name>
+        <servlet-class>loginservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginservlet</servlet-name>
+        <url-pattern>/loginservlet</url-pattern>
+    </servlet-mapping>
+    
+    
+</web-app>
